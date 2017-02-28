@@ -1,0 +1,21 @@
+#fakefooter {
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+
+.gauche {
+    text-align: left;
+}
+
+.droite {
+    text-align: right;
+}
+
+
+/*scrollable-menu raccourci la taille du menu et le rend scrollable.*/
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
