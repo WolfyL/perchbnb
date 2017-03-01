@@ -1,0 +1,18 @@
+/*.navbar-toggle {
+   margin: 23px 0;
+}
+
+.navbar-nav, .navbar-nav li, .navbar-nav li a {
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-nav li a {
+  padding-top: 0;
+  padding-bottom:0;
+}*/
+
+.fond{
+  background-color:white;
+  /*opacity: 1;*/
+}

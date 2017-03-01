@@ -4,13 +4,16 @@
 
     .logo {}
 
-    .nav navbar-nav navbar-right {
-        text-align: right;
-        color: black;
+    .fond {
+        background-color: white;
     }
 
-    .navbar {
-        background-color: white;
+    #color-text a {
+        color: #262626;
+    }
+
+    .place {
+        padding-top: 69px;
     }
 
     h1 {
@@ -31,8 +34,8 @@
         text-align: center;
     }
 
-    #fix{
-      width: 500px;
+    #fix {
+        width: 500px;
     }
 
     #fakefooter {
@@ -64,10 +67,11 @@
     ul {
         list-style: none;
     }
-    .centre{
-      margin-top: 20px;
+
+    .centre {
+        margin-top: 20px;
     }
 
-    footer{
-      border-top: grey 1px solid;
+    footer {
+        border-top: grey 1px solid;
     }
