@@ -1,0 +1,75 @@
+    body {
+        color: #262626;
+    }
+
+    .logo {}
+
+    .nav navbar-nav navbar-right {
+        text-align: right;
+        color: black;
+    }
+
+    .navbar {
+        background-color: white;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 42px;
+        color: #262626
+    }
+
+    .soustitretof {
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    #fix {
+        width: 500px;
+    }
+
+    #fakefooter {
+        border-top: 1px grey solid;
+        border-bottom: 1px grey solid;
+    }
+
+    .stick {
+        width: 30%;
+    }
+    /*scrollable-menu raccourci la taille du menu et le rend scrollable.*/
+
+    .scrollable-menu {
+        height: auto;
+        max-height: 200px;
+        overflow-x: hidden;
+    }
+
+    .social {
+        height: 20px;
+        width: 20px;
+    }
+
+    .inline ul li {
+        display: inline;
+        list-style: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .centre {
+        margin-top: 20px;
+    }
+
+    footer {
+        border-top: grey 1px solid;
+    }
