@@ -1,18 +1,143 @@
-/*.navbar-toggle {
-   margin: 23px 0;
+body {
+    color: #262626;
+    font-family: circular, sans-serif;
 }
 
-.navbar-nav, .navbar-nav li, .navbar-nav li a {
-  height: 80px;
-  line-height: 80px;
+#searchbar{
+  display: none;
 }
 
-.navbar-nav li a {
-  padding-top: 0;
-  padding-bottom:0;
-}*/
+#size{
+  width: 800px;
+}
 
-.fond{
-  background-color:white;
-  /*opacity: 1;*/
+.fond {
+    background-color: white;
+}
+
+.place {
+    padding-top: 69px;
+}
+
+#text-color a {
+    color: #262626;
+}
+
+h1 {
+    font-size: 48px;
+    color: #262626;
+    font-weight: lighter;
+}
+
+.boldtitre {
+    color: green;
+    font-weight: bold;
+}
+
+.img3 {
+    height: 233px;
+    width: 350px;
+}
+
+.img4 {
+    height: 387px;
+    width: 259px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 20px 0px 18px 0px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.soustitretof {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: white solid 5px;
+}
+
+p {
+    font-size: 12px;
+    text-align: justify;
+    text-align-last: center;
+    padding: 20px 10px 20px 10px;
+}
+
+#fix {
+    width: 500px;
+}
+
+#fakefooter {
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+
+.stick {
+    width: 30%;
+}
+/*scrollable-menu raccourci la taille du menu et le rend scrollable.*/
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.social {
+    height: 20px;
+    width: 20px;
+}
+
+.inline ul li {
+    display: inline;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.centre {
+    margin-top: 20px;
+}
+
+.ligne {
+    height: 1px;
+    background-color: lightgrey;
+    margin-bottom: 50px;
+}
+
+
+/*champ à remplir fait par David bravo*/
+
+.borderz {
+    border-style: solid;
+    border-color: #BDBDBD;
+    border-width: 1px;
+    box-shadow: -1px 2px 3px 0px lightgrey;
+}
+
+.resa {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.form-control {
+    border: 0;
+    box-shadow: none;
+    border-bottom: solid green 1px;
+    margin-bottom: 5px;
 }

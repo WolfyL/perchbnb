@@ -4,61 +4,41 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>perchbnb</title>
+    <title>perchebnb</title>
     <link href="bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
-
-    <nav class="navbar navbar-fixed-top fond test" role="navigation">
+    <nav class="navbar navbar-fixed-top fond" role="navigation">
         <div class="container-fluid">
 
             <div class="navbar-header">
                 <img class="logo" src="img/perchebnb.svg" alt="" width="60" height="60">
             </div>
 
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right" id="color-text">
-                    <li><a href="#">Devenir h&ocirc;te</a></li>
+            <div class="collapse navbar-collapse dropdown navbar-toggle collapsed" id="text-color">
+  <!-- <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button> -->
+                <ul class="nav navbar-nav navbar-right dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Devenez hôte</a></li>
                     <li><a href="#">Aide</a></li>
                     <li><a href="#">Inscription</a></li>
-                    <li><a href="#">Connection</a></li>
+                    <li><a href="#">Connexion</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
     <div class="container place">
         <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-9 col-lg-9">
-                <h1><strong>Airbnb</strong> Réservez des logements uniques et vivez là-bas comme des locaux.</h1>
-            </div>
-        </div>
-    </div>
 
-    <div class="container">
+            <div class="col-xs-12 col-sm-8 col-md-10 col-lg-12">
+                <h1><span class="boldtitre">Perchebnb</span> Réservez des logements uniques et vivez là-bas comme des locaux.</h1>
 
-        <div class="row">
-            <div class="col-lg-4">
-                <input type="text" class="form-control" placeholder="où?">
-            </div>
-            <div class="col-lg-4">
-                <input type="text" class="form-control" placeholder="Quand ?">
-            </div>
-            <div class="col-lg-4">
-                <input type="text" class="form-control" placeholder="voyageurs">
-            </div>
-        </div>
-    </div>
-
-    <!-- EXPERIENCE 1 -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Les expériences les plus populaires</h3>
             </div>
         </div>
     </div>
@@ -66,418 +46,498 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/populaire/experience1.jpeg" alt="" width="259" height="387">
-                <p>Gratuit - Circuit vélo<br />LA FERTE BERNARD</p>
-            </div>
-
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/populaire/experience2.jpeg" alt="" width="259" height="387">
-                <p>Gratuit - Randonnée<br />Batir à Chaux et à sable<br />BRIOSNE LES SABLES</p>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/populaire/experience3.jpeg" alt="" width="259" height="387">
-                <p>12€ - 1 heure - Atelier poterie Françoise<br />AUVRAY COURCIVAL</p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/populaire/experience4.jpeg" alt="" width="259" height="387">
-                <p>36€ - 1 heure - Aurel'Horse<br />COURCEMONT</p>
-            </div>
-
-        </div>
-    </div>
-    <!-- FIN EXPERIENCE 1 -->
-
-    <!-- EXPERIENCE 2  -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Nos Logements</h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-1.jpg" src="img/logement/logement1.jpeg" alt="" width="350" height="233">
-                <p>64€ / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL BALLADINS - CHERRE</p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-2.jpg" src="img/logement/logement2.jpeg" alt="" width="350" height="233">
-                <p>56€ / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL LES SITTELLES - MONTFORT LE GESNOIS</p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-3.jpg" src="img/logement/logement3.jpeg" alt="" width="350" height="233">
-                <p>65€ / nuit - Chambre - 1 lit pour 2 personnes<br /> LE PRESSOIR HOTEL - SAINT CALAIS</p>
-
-            </div>
-
-        </div>
-    </div>
-    <!-- FIN EXPERIENCE 2 -->
-
-    <!-- EXPERIENCE 3 -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Les expériences les plus populaires</h3>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-4 col-md-2">
-
-                <img class="img/col-md-2-1.jpg" src="img/col-md-2-1.jpg" alt="">
-                <p>lorem ipsum</p>
-
-            </div>
-
-
-            <div class="col-xs-12 col-sm-4 col-md-2">
-
-                <img class="img/col-md-2-2.jpg" src="img/col-md-2-2.jpg" alt="">
-                <p>lorem ipsum</p>
-
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-
-                <img class="img/col-md-2-1.jpg" src="img/col-md-2-1.jpg" alt="">
-                <p>lorem ipsum</p>
-
-            </div>
-
-
-            <div class="col-xs-12 col-sm-4 col-md-2">
-
-                <img class="img/col-md-2-2.jpg" src="img/col-md-2-2.jpg" alt="">
-                <p>lorem ipsum</p>
-
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-
-                <img class="img/col-md-2-1.jpg" src="img/col-md-2-1.jpg" alt="">
-                <p>lorem ipsum</p>
-
-            </div>
-
-
-
-            <div class="col-xs-12 col-sm-4 col-md-2">
-
-                <img class="img/col-md-2-2.jpg" src="img/col-md-2-2.jpg" alt="">
-                <p>lorem ipsum</p>
-
-            </div>
-
-
-        </div>
-    </div>
-
-    <!-- FIN EXPERIENCE 3 -->
-
-    <!-- EXPERIENCE 4  -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Evenements Locaux</h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-1.jpg" src="img/event/event1.jpeg" alt="" width="350" height="233">
-                <p>Gratuit - Exposition Talents d'Art - SAINT-CALAIS<br /> Du 24/02/2017 au 26/02/2017</p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-2.jpg" src="img/event/event2.jpeg" alt="" width="350" height="233">
-                <p>46€ - 2h30 - Concert-Conférence<br />"BEETHOVEN ET LE PIANO"<br />Par Pascale LANSQUET et Marie-Pierre BOUT<br /> MONTMIRAIL - 04/03/2017</p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-3.jpg" src="img/event/event3.jpeg" alt="" width="350" height="233">
-                <p>12€ - 1h30 - "LE CABARET BLANCHE" Thé&acirc;tre musical<br />LA FERTE BERNARD - 09/03/2017</p>
-
-            </div>
-
-        </div>
-    </div>
-    <!-- FIN EXPERIENCE 4 -->
-
-    <!-- EXPERIENCE 5 -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Experiences : Sports et Loisirs</h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/sport/sp1.jpeg" alt="" width="259" height="387">
-                <p>13,50€ - Zoo de PESCHERAY<br />LE BREIL SUR MERIZE</p>
-
-            </div>
-
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/sport/sp2.jpeg" alt="" width="259" height="387">
-                <p>34€ - 1 heure - VIBRAYE Equitation<br />VIBRAYE</p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/sport/sp3.jpeg" alt="" width="259" height="387">
-                <p>18€ - 1h30 - Canoe Kayak Club Fertois<br />LA FERTE BERNARD</p>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/sport/sp4.jpeg" alt="" width="259" height="387">
-                <p>6€ - 1h15 - Le Museotrain<br />SEMUR EN VALLON</p>
-
-            </div>
-
-        </div>
-    </div>
-    <!-- FIN EXPERIENCE 5 -->
-
-    <!-- EXPERIENCE 6 -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Experiences : Nature</h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/nature/nature1.jpeg" alt="" width="259" height="387">
-                <p> 11€ - 1 heure<br />Les "Jardins du Manoir de Pontgirard"<br />MONCEAU</p>
-            </div>
-
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/nature/nature2.jpeg" alt="" width="259" height="387">
-                <p>9€ - 1 heure<br />Jardin de la Bourdonnière<br />REVEILLON</p>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/nature/nature3.jpeg" alt="" width="259" height="387">
-                <p>10€ - 1 heure<br />Parc du Château de Lorière<br />LA ROUGE</p>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-
-                <img class="img/col-md-3-1.jpg" src="img/nature/nature4.jpeg" alt="" width="259" height="387">
-                <p>13€ - 1 heure<br />Jardin du Manoir des Perrignes<br />ST MAURICE SUR HUISNE</p>
-            </div>
-
-        </div>
-    </div>
-    <!-- FIN EXPERIENCE 6 -->
-
-    <!-- EXPERIENCE 7  -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Experiences : Restauration</h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-1.jpg" src="img/restauration/restauration1.jpg" alt="" width="350" height="233">
-                <p>Hotel de la Forêt<br />SENONCHES</p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-2.jpg" src="img/restauration/restauration2.jpg" alt="" width="350" height="233">
-                <p>La Maison d'Horbé<br /> LA PERRIERE<br /></p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-
-                <img class="img/col-md-4-3.jpg" src="img/restauration/restauration3.jpg" alt="" width="350" height="233">
-                <p>Le Montligeon<br /> LA CHAPELLE-MONTLIGEON</p>
-
-            </div>
-
-        </div>
-    </div>
-    <!-- FIN EXPERIENCE 7 -->
-
-
-
-
-    <!-- QUESTIONS COURANTES -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                <h3>Questions courantes</h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <h4>lorem ipsum</h4>
-                <p>lorem ipsumjh clsqc qlsclqsc bsqc bqsl cslqc blsq cblqs bclsqbc lqscb ldsqbc ldjqs cbldqs cbjsd cbsj cblsbcslqbcslq cbsqd bsql bcsq cbslq cblsq cbqsbclqsbc qs;bcqlscbqslcbsq.</p>
-                <h5>lorem ipsum</h5>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <h4>lorem ipsum</h4>
-                <p>lorem ipsumjh clsqc qlsclqsc bsqc bqsl cslqc blsq cblqs bclsqbc lqscb ldsqbc ldjqs cbldqs cbjsd cbsj cblsbcslqbcslq cbsqd bsql bcsq cbslq cblsq cbqsbclqsbc qs;bcqlscbqslcbsq.</p>
-                <h5>lorem ipsum</h5>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <h4>lorem ipsum</h4>
-                <p>lorem ipsumjh clsqc qlsclqsc bsqc bqsl cslqc blsq cblqs bclsqbc lqscb ldsqbc ldjqs cbldqs cbjsd cbsj cblsbcslqbcslq cbsqd bsql bcsq cbslq cblsq cbqsbclqsbc qs;bcqlscbqslcbsq.</p>
-                <h5>lorem ipsum</h5>
-            </div>
-
-
-
-        </div>
-    </div>
-
-    <!-- FIN QUESTIONS COURANTES -->
-
-    <div class="container">
-        <div class="row">
-
-
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Langue<span class="caret"></span></button>
-                    <ul class="dropdown-menu scrollable-menu" role="menu">
-                        <li><a href="#">Français</a></li>
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Italiano</a></li>
-                        <li><a href="#">Deutsch</a></li>
-                        <li><a href="#">Dansk</a></li>
-                        <li><a href="#">Nederlands</a></li>
-                        <li><a href="#">Norsk</a></li>
-                        <li><a href="#">Português</a></li>
-                        <li><a href="#">Suomi</a></li>
-                        <li><a href="#">Català</a></li>
-                        <li><a href="#">Español</a></li>
-                    </ul>
+            <div class="col-lg-4 borderz">
+                <div>
+                    <p class="resa">Où ?</p>
                 </div>
-                <p><br/></p>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Money<span class="caret"></span></button>
-                    <ul class="dropdown-menu scrollable-menu" role="menu">
-                        <li><a href="#">EUR</a></li>
-                        <li><a href="#">AED</a></li>
-                        <li><a href="#">ARS</a></li>
-                        <li><a href="#">AUD</a></li>
-                        <li><a href="#">BGN</a></li>
-                        <li><a href="#">BRL</a></li>
-                        <li><a href="#">CAD</a></li>
-                        <li><a href="#">CHF</a></li>
-                        <li><a href="#">CLP</a></li>
-                        <li><a href="#">CNY</a></li>
-                        <li><a href="#">CLP</a></li>
-                        <li><a href="#">GBP</a></li>
-                    </ul>
+                <div>
+                    <input type="text" class="form-control" placeholder="Destination, Ville, Adresse">
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <h4>Perchebnb</h4>
-                <ul>
-                    <li>A propos</li>
-                    <li>Carrières</li>
-                    <li>Presse</li>
-                    <li>Règles</li>
-                    <li>Aide</li>
-                    <li>Diversité et intégration</li>
-                </ul>
+
+
+            <div class="col-lg-4 borderz">
+                <div>
+                    <p class="resa">Quand ?</p>
+                </div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Date">
+                </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <h4>Découvrir</h4>
-                <ul>
-                    <li>Confiance et sécurité</li>
-                    <li>Crédit voyage</li>
-                    <li>Airbnb citizen</li>
-                    <li>Voyage d'affaires</li>
-                    <li>Guides</li>
-                </ul>
-            </div>
+            <div class="col-lg-4 borderz">
+                <div>
+                    <p class="resa">Voyageurs ?</p>
+                </div>
+                <div>
+                    <input type="text" class="form-control" placeholder="1 voyageur">
+                </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <h4>Hébergement</h4>
-                <ul>
-                    <li>Pourquoi être hôte</li>
-                    <li>Hospitalité</li>
-                    <li>Hébergement responsable</li>
-                </ul>
             </div>
         </div>
-    </div>
-    <!-- <footer> -->
-    <footer>
+
+        <!-- EXPERIENCE 1 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Les expériences les plus populaires</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/populaire/experience1.jpeg" alt="">
+                    <p><span class="price">Gratuit</span> - Circuit vélo<br />LA FERTE BERNARD</p>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/populaire/experience2.jpeg" alt="">
+                    <p><span class="price">Gratuit</span> - Randonnée<br />Batir à Chaux et à sable<br />BRIOSNE LES SABLES</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/populaire/experience3.jpeg" alt="">
+                    <p><span class="price">12€</span> - 1 heure - Atelier poterie Françoise<br />AUVRAY COURCIVAL</p>
+
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/populaire/experience4.jpeg" alt="">
+                    <p><span class="price">36€</span> - 1 heure - Aurel'Horse<br />COURCEMONT</p>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- FIN EXPERIENCE 1 -->
+
+        <!-- EXPERIENCE 2  -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Nos Logements</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/logement/logement1.jpeg" alt="">
+                    <p><span class="price">64€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL BALLADINS - CHERRE</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/logement/logement2.jpeg" alt="">
+                    <p><span class="price">56€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL LES SITTELLES - MONTFORT LE GESNOIS</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/logement/logement3.jpeg" alt="">
+                    <p><span class="price">65€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> LE PRESSOIR HOTEL - SAINT CALAIS</p>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- FIN EXPERIENCE 2 -->
+
+        <!-- EXPERIENCE 3 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Les expériences les plus populaires</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-4 col-md-2">
+
+                    <img class="img/col-md-2-1.jpg" src="img/la-chevalerie.jpg" alt="">
+                    <p>La Chevalerie</p>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-4 col-md-2">
+
+                    <img class="img/col-md-2-2.jpg" src="img/la-simoniere.jpg" alt="">
+                    <p>La Simonerie</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-2">
+
+                    <img class="img/col-md-2-1.jpg" src="img/le-verger.jpg" alt="">
+                    <p>Le Vergé</p>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-4 col-md-2">
+
+                    <img class="img/col-md-2-2.jpg" src="img/manoir-de-lormarin.jpg" alt="">
+                    <p>Manoir de Lormarin</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-2">
+
+                    <img class="img/col-md-2-1.jpg" src="img/mortagne-au-perche.jpg" alt="">
+                    <p>Mortagne au Perche</p>
+
+                </div>
+
+
+
+                <div class="col-xs-12 col-sm-4 col-md-2">
+
+                    <img class="img/col-md-2-2.jpg" src="img/stgermaindeloise.jpg" alt="">
+                    <p>St Germain de Loisé</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- FIN EXPERIENCE 3 -->
+
+        <!-- EXPERIENCE 4  -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Evenements Locaux</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/event/event1.jpeg" alt="">
+                    <p><span class="price">Gratuit</span> - Exposition Talents d'Art - SAINT-CALAIS<br /> Du 24/02/2017 au 26/02/2017</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/event/event2.jpeg" alt="">
+                    <p><span class="price">46€</span> - 2h30 - Concert-Conférence<br />"BEETHOVEN ET LE PIANO"<br />Par Pascale LANSQUET et Marie-Pierre BOUT<br /> MONTMIRAIL - 04/03/2017</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/event/event3.jpeg" alt="">
+                    <p><span class="price">12€</span> - 1h30 - "LE CABARET BLANCHE" Thé&acirc;tre musical<br />LA FERTE BERNARD - 09/03/2017</p>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- FIN EXPERIENCE 4 -->
+
+        <!-- EXPERIENCE 5 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Experiences : Sports et Loisirs</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/sport/sp1.jpeg" alt="">
+                    <p><span class="price">13,50€</span> - Zoo de PESCHERAY<br />LE BREIL SUR MERIZE</p>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/sport/sp2.jpeg" alt="">
+                    <p><span class="price">34€</span> - 1 heure - VIBRAYE Equitation<br />VIBRAYE</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/sport/sp3.jpeg" alt="">
+                    <p><span class="price">18€</span> - 1h30 - Canoe Kayak Club Fertois<br />LA FERTE BERNARD</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/sport/sp4.jpeg" alt="">
+                    <p><span class="price">6€</span> - 1h15 - Le Museotrain<br />SEMUR EN VALLON</p>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- FIN EXPERIENCE 5 -->
+
+        <!-- EXPERIENCE 6 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Experiences : Nature</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/nature/nature1.jpeg" alt="">
+                    <p><span class="price">11€</span> - 1 heure<br />Les "Jardins du Manoir de Pontgirard"<br />MONCEAU</p>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/nature/nature2.jpeg" alt="">
+                    <p><span class="price">9€</span> - 1 heure<br />Jardin de la Bourdonnière<br />REVEILLON</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/nature/nature3.jpeg" alt="">
+                    <p><span class="price">10€</span> - 1 heure<br />Parc du Château de Lorière<br />LA ROUGE</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+
+
+                    <img class="img4" src="img/nature/nature4.jpeg" alt="">
+                    <p><span class="price">13€</span> - 1 heure<br />Jardin du Manoir des Perrignes<br />ST MAURICE SUR HUISNE</p>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- FIN EXPERIENCE 6 -->
+
+        <!-- EXPERIENCE 7  -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Experiences : Restauration</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/restauration/restauration1.jpg" alt="" <p>Hotel de la Forêt<br />SENONCHES</p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/restauration/restauration2.jpg" alt="" <p>La Maison d'Horbé<br /> LA PERRIERE<br /></p>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+
+                    <img class="img3" src="img/restauration/restauration3.jpg" alt="" <p>Le Montligeon<br /> LA CHAPELLE-MONTLIGEON</p>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- FIN EXPERIENCE 7 -->
+
+
+
+
+        <!-- QUESTIONS COURANTES -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
+                    <h3>Questions courantes</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <h4>Qu'est-ce qu'il y a dans une annonce ?</h4>
+                    <p>Vous remplissez une description, prenez et téléchargez des photos, puis définissez un prix. Votre annonce permet aux voyageurs d'avoir une idée précise de votre logement.</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <h4>Qui peut réserver ?</h4>
+                    <p>Vous définissez la disponibilité et le règlement intérieur de votre logement. Les contrôles réservés à l'hôte et les paramètres du calendrier peuvent faciliter l'hébergement.</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <h4>Nous sommes là pour vous aider</h4>
+                    <p>Airbnb vous aide à préparer votre logement et à choisir un prix, mais aussi à bien comprendre vos responsabilités aux termes de la législation locale : nous avons les ressources et les outils qu'il vous faut.</p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- FIN QUESTIONS COURANTES -->
+
+        <div class="container">
+            <div class="row">
+
+                <div class="ligne">
+
+                </div>
+
+                <footer>
+
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Langue<span class="caret"></span></button>
+                            <ul class="dropdown-menu scrollable-menu" role="menu">
+                                <li><a href="#">Français</a></li>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Italiano</a></li>
+                                <li><a href="#">Deutsch</a></li>
+                                <li><a href="#">Dansk</a></li>
+                                <li><a href="#">Nederlands</a></li>
+                                <li><a href="#">Norsk</a></li>
+                                <li><a href="#">Português</a></li>
+                                <li><a href="#">Suomi</a></li>
+                                <li><a href="#">Català</a></li>
+                                <li><a href="#">Español</a></li>
+                            </ul>
+                        </div>
+                        <p><br/></p>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Money<span class="caret"></span></button>
+                            <ul class="dropdown-menu scrollable-menu" role="menu">
+                                <li><a href="#">EUR</a></li>
+                                <li><a href="#">AED</a></li>
+                                <li><a href="#">ARS</a></li>
+                                <li><a href="#">AUD</a></li>
+                                <li><a href="#">BGN</a></li>
+                                <li><a href="#">BRL</a></li>
+                                <li><a href="#">CAD</a></li>
+                                <li><a href="#">CHF</a></li>
+                                <li><a href="#">CLP</a></li>
+                                <li><a href="#">CNY</a></li>
+                                <li><a href="#">CLP</a></li>
+                                <li><a href="#">GBP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <h4>Perchebnb</h4>
+                        <ul>
+                            <li>A propos</li>
+                            <li>Carrières</li>
+                            <li>Presse</li>
+                            <li>Règles</li>
+                            <li>Aide</li>
+                            <li>Diversité et intégration</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <h4>Découvrir</h4>
+                        <ul>
+                            <li>Confiance et sécurité</li>
+                            <li>Crédit voyage</li>
+                            <li>Airbnb citizen</li>
+                            <li>Voyage d'affaires</li>
+                            <li>Guides</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <h4>Hébergement</h4>
+                        <ul>
+                            <li>Pourquoi être hôte</li>
+                            <li>Hospitalité</li>
+                            <li>Hébergement responsable</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+        <div class="ligne">
+
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-xs-3 centre">
-                    <p>Airbnb, Inc. </p>
+                    <p>Perchebnb, Inc. </p>
                 </div>
                 <div class="col-xs-9">
                     <div class="row">
@@ -487,13 +547,14 @@
                         <!-- Picto lien réseaux sociaux? -->
                         <div class=" pull-right">
                             <div class="col-xs-2 stick">
-                                <a href="https://facebook.com"><img src="img/fb.svg" alt="picto facebook" /></a>
+
+                                <a href="https://facebook.com"><img class="social" src="img/fb.svg" alt="picto facebook" /></a>
                             </div>
                             <div class="col-xs-2 stick">
-                                <a href="http://twitter.com"><img src="img/twitter.svg" alt="picto facebook" /></a>
+                                <a href="http://twitter.com"><img class="social" src="img/twitter.svg" alt="picto facebook" /></a>
                             </div>
                             <div class="col-xs-2 stick">
-                                <a href="http://instagram.com"><img src="img/insta.svg" alt="picto facebook" /></a>
+                                <a href="http://instagram.com"><img class="social" src="img/insta.svg" alt="picto facebook" /></a>
                             </div>
                         </div>
                     </div>
@@ -501,7 +562,7 @@
 
             </div>
         </div>
-        </div>
+    </div>
     </footer>
 
 
